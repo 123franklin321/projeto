@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 1px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: url(fundo1-1.jpg);
+    height: 600px;
+    width: 100%;
+    position: absolute;
+}
+
+.camada{
+    margin-left: 350px;
+    padding-top: 50px;
+    position: relative;
+    z-index: 1;    
+}
+h1{
+    font-size: 38px;
+    font-family: roboto;
+    color: #ffff;
+    padding-top: 90px;
+    margin-left: 15px;
+    position: relative;
+}
+span{
+    color: #7a0046;
+}
+.texto{
+    font-family: roboto;
+    color: #380022;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 15px;
+    padding-top: 15px;
+    position: relative;
+}
+button{
+    font-size: 16px;
+    padding: 25px 100px;
+    border: 0;
+    border-radius: 45px;
+    color: white;
+    font-family: roboto;
+    background-color: green;
+    cursor: pointer;
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px;
+    position: relative;
+}
+button:hover{
+    animation-name: botao;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    box-shadow: 0 0 50px 20px;
+}
+@keyframes botao{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.05);
+    }
+}
+iframe{
+   float: right;
+   margin-top: -225px;
+   border-radius: 10px;
+   border: solid;
+   border-color: white;
+   margin-right: 45px; 
+   position: relative;
+}
+.overlay{
+    position: absolute;
+    background-color: rgba(255, 192, 203, 0.795);
+    width: 100%;
+    height: 600px;
+    margin-top: -145px;
+}
+
+.container1{
+    padding-top: 730px;
+    margin-left: 100px;
+    display: grid;
+    
+}
+.texto1{
+    margin-left: 450px;
+    color: #7a7a7ab8;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: 2.3px;
+    margin-top: -380px;
+    font-family: roboto;
+}
+h2{
+    margin-left: 450px;
+    margin-top: -350px;
+    color: #ef828b;
+    font-family: roboto;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 1.4em;   
+}
+.texto2{
+    margin-left: 450px;
+    margin-top: -220px;
+    font-family: roboto;
+    color: #101010;
+    font-size: 16px;
+    font-weight: 400;
+}
+.container2{
+    margin-top: 90px;
+    background: pink;
+    height: 550px;
+    margin-left: -100px;
+    padding: 0;
+}
+h3{
+   color: #67003e;
+   font-family: roboto;
+   font-size: 30px;
+   padding-top: 60px;
+   text-align: center;
+}
+.texto3{
+    color: #ffffff;
+    font-family: roboto;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: 2.3px;
+}
+.alunas{
+    padding-top: 55px;
+    margin-left: 10px;
+}
+.container3{
+    height: 600px;
+}
+h4{
+    padding-top: 80px;
+    text-align: center;
+    font-family: roboto;
+    font-size: 40px;
+    line-height: 1.4em;
+    font-weight: 800;
+}
+.avançado{
+    padding-top: 30px;
+    background-color: pink;
+    color: #67003e;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 10px;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: -50px;
+}
+.aulas{
+    background-color: pink;
+    color: #67003e;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 10px;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 310px;
+    margin-top: -250px;
+
+}
+.mercado{
+    background-color: pink;
+    color: #67003e;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 10px;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 680px;
+    margin-top: -250px;
+}
+
+.container4{
+     background-image: url(design-sem-nome-3-1.jpg);
+     position: absolute;
+     margin-top: 1700px;
+     width: 100%;
+     margin-right: 50px;
+     margin-left: -100px;
+     background-repeat: no-repeat;
+}
+h4{
+    color: #ef828b;
+    position: relative;
+    z-index: 1;
+}
+.texto4{
+    padding-top: 50px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.imagens{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 50px;
+    text-align: center;
+    padding-top: 70px;
+    position: relative;
+    z-index: 1;
+}
+.imagens1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 50px;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    z-index: 1;
+}
+.imagens2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 50px;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    z-index: 1;  
+}
+.imagens3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 50px;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    z-index: 1;
+}
+.imagens4{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 50px;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    z-index: 1;
+}
+.imagens5{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 50px;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    z-index: 1;    
+}
+.imagens6{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 50px;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    z-index: 1; 
+}
+.imagens7{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 50px;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    z-index: 1;
+}
+.overlay1{
+    position: absolute;
+    background-color: #380022e8;
+    width: 100%;
+    height: 2500px;   
+}
+.container5{
+    padding-top: 50px;
+    font-family: roboto;
+}
+.bonus{
+    padding-top: 100px;
+    margin-left: -725px;
+    text-align: center;
+}
+.bonus1{
+    margin-left: 750px;
+    margin-top: -408px;
+}
+.bonus2{
+    margin-left: 1500px;
+    margin-top: -410px;
+}
+.textob{
+    margin-left: 1500px;
+    padding-top: -20px;
+}
+.container6{
+    background: pink;
+    height: 900px;
+    text-align: center;
+}
+.video2{
+    padding-top: 300px;
+    margin-right: 100px;
+}
+.botao1{
+    float: initial;
+    margin-top: 40px;
+}
+.container7{
+    text-align: center;
+}
+.what{
+    padding-top: 50px;
+}
+.what1{
+    padding-top: 30px;
+}
+.container8{
+    text-align: center;
+    margin-top: 50px;
+    background-color: #ef828b31;
+}
+.certificados{
+    padding-top: 50px;
+}
+.container9{
+    background-color: #7a7a7a18;
+    height: 500px;
+
+}
+.textos{
+    margin-left: 600px;
+    margin-top: -370px;
+    font-family: roboto;
+    color: #38002270;
+    font-weight: 400;
+}
+.titulo{
+    margin-top: 370px;
+    margin-left: -450px;
+    font-family: roboto;
+}
+.shape{
+    margin-left: 80px;
+    padding-top: 80px;
+}
+.textoa{
+    margin-left: 600px;
+    padding-top: 50px;
+    font-family: roboto;
+    font-size: 16px;
+    color: #3800226c;
+    font-weight: 400;
+}
+.container10{
+    height: 400px;
+}
+.risco{
+    float: right;
+    margin-right: 50px;
+    margin-top: -320px;
+}
+.textor{
+    margin-top: 130px;
+    font-size: 20px;
+    font-family: roboto;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: 2.3px;
+    color: #7a7a7a75;
+    margin-left: 10px;
+}
+.garantia{
+    margin-top: 50px;
+    font-family: roboto;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 1.4em;
+    margin-left: 10px;
+}
+.textog{
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: roboto;
+    line-height: 1em;
+    font-weight: 400;
+}
+.container11{
+    height: 600px;
+    background-color: #ef828b5b;
+    
+}
+.textof{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+    font-family: roboto;
+    font-weight: 800;
+    line-height: 1.2em;
+}
+.textof1{
+    font-size: 20px;
+}
+.textof3{
+    font-size: 20px;
+}
+.botao2{
+    float: initial;
+}
+.branq{
+    margin-left: 385px;
+    padding-top: 10px;
+}
+.container12{
+    background-color: #67003e;
+    height: 100px;
+}
+.tf{
+    text-align: center;
+    padding-top: 25px;
+}
+.tf1{
+    text-align: center;
+    margin-top: 10px;
+}
